@@ -5,11 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Interactivo de Mensajes</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <header class="center-column-div">
+            <h1>Sistema Interactivo de Mensajes</h1>
+        </header>
 
+        <main class="center-column-div">
+            <form class="form" action="javascript:void(0)" onsubmit="show_message()">
+                <input id="name" type="text" placeholder="Name">
+                <input id="age" type="number" min="0" max="100" step="1" placeholder="Age" required>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+
+        <footer class="center-column-div">
+            &copy; 2025 Carlos Rojas. All rights reserved.
+        </footer>
+    </div>
 </body>
 
 <script src="./sistema_interactivo.js"></script>
