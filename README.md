@@ -38,6 +38,11 @@ project-root/
 │       └── preview.png
 ```
 
+- `index.html`: Main HTML structure.
+- `assets/css/styles.css`: Custom styles.
+- `assets/js/main.js`: Core JavaScript logic.
+- `assets/img/`: Images and GIFs directory.
+
 ## ✅ How to Use
 
 1. Clone the repository:
