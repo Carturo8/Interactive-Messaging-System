@@ -11,7 +11,7 @@ A simple and fun web application that displays a personalized message and a danc
 
 ## 🖼️ Preview
 
-![Screenshot](./img/preview.png)
+![Screenshot](./assets/img/preview.png)
 
 ## 🛠️ Technologies Used
 
