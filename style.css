@@ -1,16 +1,18 @@
+/* Reset default spacing and inherit box model */
 * {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
+/* Base styles for the document */
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 62.5%; /* Makes 1rem = 10px for easy scaling */
     background-color: whitesmoke;
-    color: black;
 }
 
+/* Styling for dynamic message */
 h2 {
     padding: 3rem 0;
     font-size: 2rem;
@@ -18,6 +20,7 @@ h2 {
     color: deepskyblue;
 }
 
+/* General image styling (for GIFs) */
 img {
     width: 150px;
     height: auto;
@@ -25,6 +28,7 @@ img {
     object-fit: cover;
 }
 
+/* Layout container: full height with header, main, footer */
 .container {
     display: grid;
     min-height: 100vh;
@@ -32,6 +36,7 @@ img {
     margin: 0 auto;
 }
 
+/* Center content vertically and horizontally */
 .center-column-div {
     display: flex;
     flex-direction: column;
@@ -40,6 +45,7 @@ img {
     text-align: center;
 }
 
+/* Header section styling */
 header {
     padding: 2rem 0;
     font-size: 3rem;
@@ -47,6 +53,7 @@ header {
     border-bottom: 2px solid deepskyblue;
 }
 
+/* Main content area */
 main {
     max-width: 120rem;
     width: 80%;
@@ -54,6 +61,7 @@ main {
     padding: 3rem 0;
 }
 
+/* Form container styling */
 .form {
     display: flex;
     flex-direction: column;
@@ -65,6 +73,7 @@ main {
     box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
+/* Input fields styling */
 .form input {
     padding: 1rem;
     font-size: 2rem;
@@ -72,6 +81,7 @@ main {
     border-radius: 1rem;
 }
 
+/* Submit button styling */
 .form button {
     padding: 1rem;
     font-size: 2rem;
@@ -82,6 +92,7 @@ main {
     border-radius: 1rem;
 }
 
+/* Button hover effect */
 .form button:hover {
     background-color: blue;
     color: white;
@@ -90,6 +101,7 @@ main {
     transition: all 0.3s ease-in-out;
 }
 
+/* Footer section styling */
 footer {
     padding: 1rem 0;
     font-size: 1.5rem;
