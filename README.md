@@ -25,10 +25,17 @@ A simple and fun web application that displays a personalized message and a danc
 ```bash
 project-root/
 │
+├── LICENSE
 ├── index.html # Main HTML structure
-├── style.css # Custom styles
-├── interactive_system.js # Core JavaScript logic
-└── img/ # Local GIFs (guy.gif, kakashi.gif, preview.png.)
+├── assets/
+│   ├── css/
+│   │   └── styles.css # Custom styles
+│   ├── js/
+│   │   └── main.js # Core JavaScript logic
+│   └── img/ # Local GIFs
+│       ├── guy.gif
+│       ├── kakashi.gif
+│       └── preview.png
 ```
 
 ## ✅ How to Use
@@ -46,7 +53,7 @@ project-root/
 
 - Make sure your browser allows loading local image files if testing locally.
 
-- GIFs should be placed in the img/ folder as used in the script.
+- GIFs should be placed in the assets/img/ folder as used in the script.
 
 ## 📄 License
 
