@@ -26,13 +26,13 @@ A simple and fun web application that displays a personalized message and a danc
 project-root/
 │
 ├── LICENSE
-├── index.html # Main HTML structure
+├── index.html
 ├── assets/
 │   ├── css/
-│   │   └── styles.css # Custom styles
+│   │   └── styles.css
 │   ├── js/
-│   │   └── main.js # Core JavaScript logic
-│   └── img/ # Local GIFs
+│   │   └── main.js
+│   └── img/
 │       ├── guy.gif
 │       ├── kakashi.gif
 │       └── preview.png
