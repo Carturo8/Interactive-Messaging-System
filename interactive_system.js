@@ -18,6 +18,9 @@ function show_message() {
         }
     });
 
+    // Reset message content to prevent message stacking or duplicates
+    message.innerHTML = ""
+
     // Validate age input and show a warning alert if invalid
     if (isNaN(age) || age < 1 || age > 100) {
         Swal.fire({
