@@ -12,22 +12,6 @@ html {
     background-color: whitesmoke;
 }
 
-/* Styling for dynamic message */
-h2 {
-    padding: 3rem 0;
-    font-size: 2rem;
-    font-weight: bold;
-    color: deepskyblue;
-}
-
-/* General image styling (for GIFs) */
-img {
-    width: 150px;
-    height: auto;
-    margin: 1rem;
-    object-fit: cover;
-}
-
 /* Layout container: full height with header, main, footer */
 .container {
     display: grid;
@@ -43,6 +27,22 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Styling for dynamic message */
+h2 {
+    padding: 3rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: deepskyblue;
+}
+
+/* General image styling (for GIFs) */
+img {
+    width: 150px;
+    height: auto;
+    margin: 1rem;
+    object-fit: cover;
 }
 
 /* Header section styling */
