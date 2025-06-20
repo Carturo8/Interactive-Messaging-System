@@ -38,7 +38,7 @@ function show_message() {
         the world of programming!`
 
         const gif = document.createElement("img");
-        gif.src = "./img/guy.gif";
+        gif.src = "./assets/img/guy.gif";
         gif.alt = "Guy dancing";
         gif.id = "guy-gif";
 
@@ -51,7 +51,7 @@ function show_message() {
         await you in the world of technology!`
 
         const gif = document.createElement("img");
-        gif.src = "./img/kakashi.gif";
+        gif.src = "./assets//img/kakashi.gif";
         gif.alt = "Kakashi dancing";
         gif.id = "kakashi-gif";
 
