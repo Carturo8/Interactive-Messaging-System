@@ -1,6 +1,6 @@
 # Interactive Messaging System
 
-🚀 **[Try it here!](https://carturo8.github.io/Interactive-Messaging-System/)**
+🔗 **[Try it here!](https://carturo8.github.io/Interactive-Messaging-System/)**
 
 A simple and fun web application that displays a personalized message and a dancing GIF based on the user's age. If the user is underage, a motivational message is shown; if the user is an adult, a welcome to tech opportunities is displayed.
 
