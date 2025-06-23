@@ -11,10 +11,6 @@ A simple and fun web application that displays a personalized message and a danc
 - Dynamically displays a message and a local dancing GIF.
 - Responsive and friendly UI built with HTML, CSS, and vanilla JavaScript.
 
-## 🖼️ Preview
-
-![Screenshot](./assets/img/preview.png)
-
 ## 🛠️ Technologies Used
 
 - HTML5
