@@ -1,15 +1,17 @@
 # Interactive Messaging System
 
-![Banner](./assets/img/preview.png)
-
 A simple and fun web application that displays a personalized message and a dancing GIF based on the user's age. If the user is underage, a motivational message is shown; if the user is an adult, a welcome to tech opportunities is displayed.
 
 ## 🚀 Features
 
-- Collects user name and age through a clean form.
+- Collects username and age through a clean form.
 - Validates age input and shows a modern alert using SweetAlert2.
 - Dynamically displays a message and a local dancing GIF.
 - Responsive and friendly UI built with HTML, CSS, and vanilla JavaScript.
+
+## 🖼️ Preview
+
+![Screenshot](./assets/img/preview.png)
 
 ## 🛠️ Technologies Used
 
