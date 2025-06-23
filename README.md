@@ -25,6 +25,7 @@ A simple and fun web application that displays a personalized message and a danc
 ```bash
 project-root/
 │
+├── README.md
 ├── LICENSE
 ├── index.html
 ├── assets/
@@ -38,10 +39,12 @@ project-root/
 │       └── preview.png
 ```
 
+- `README.md`: Project documentation.
+- `LICENSE`: License file (MIT).
 - `index.html`: Main HTML structure.
 - `assets/css/styles.css`: Custom styles.
 - `assets/js/main.js`: Core JavaScript logic.
-- `assets/img/`: Images and GIFs directory.
+- `assets/img/`: Local images and GIFs.
 
 ## ✅ How to Use
 
